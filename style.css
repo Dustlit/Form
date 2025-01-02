@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: left; /* Align text to the left */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-bottom: 20px;
+  }
+  
+  header .logo {
+    max-width: 150px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .options label,
+  .subscription label {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

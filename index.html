@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Package Selection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Event Logo" class="logo">
+    </header>
+
+    <main>
+      <h1>Select Your Event Package</h1>
+      <p>Please choose the event packages you'd like to attend.</p>
+
+      <form id="event-form">
+        <div class="options">
+          <h2>Solar Observation Event</h2>
+          <label>
+            <input type="radio" name="solar-package" value="₹399" required> ₹399 - Solar Observation Event
+          </label>
+
+          <h2>Planets & Moon Observation Event</h2>
+          <label>
+            <input type="radio" name="planets-package" value="₹399" required> ₹399 - Planets & Moon Observation Event
+          </label>
+
+          <h2>Combined Event Package</h2>
+          <label>
+            <input type="radio" name="combined-package" value="₹899" required> ₹799 - Solar & Planets Observation Combined
+          </label>
+        </div>
+
+        <div class="subscription">
+          <h2>Subscription Plan</h2>
+          <p>Select your subscription plan for monthly access:</p>
+          
+          <label>
+            <input type="radio" name="subscription" value="₹849" required> ₹849/month - Standard Plan (2 Sessions of Solar Observation & 2 Sessions of Nightsky)
+          </label>
+          <label>
+            <input type="radio" name="subscription" value="₹999" required> ₹999/month - Premium Plan    (3 Sessions of Solar Observation & 4 Sessions of Nightsky)
+          </label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
